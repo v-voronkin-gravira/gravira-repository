@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background: linear-gradient(#050B20, #152E86);
+    font-family: Jost, sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 0 16px
+}
+
+.error-403 {
+    max-width: 280px;
+    margin: 0 0 16px
+}
+
+.error-403 img {
+    width: 100%;
+    display: block
+}
+
+.title {
+    font-weight: 700;
+    margin: 0 0 16px
+}
+
+.text {
+    color: #BAC0C5;
+    font-size: 14px;
+    margin: 0 0 8px;
+    line-height: 1.4;
+    max-width: 476px
+}
+
+.text-button {
+    margin: 16px 0;
+    border-radius: 8px;
+    background: #EBB446;
+    padding: 0 12px;
+    color: #1E0F00;
+    font-weight: 500
+}
+
+.text-button p {
+    display: inline-block
+}
+
+.text-button a {
+    color: #1E0F00;
+    text-decoration: underline dotted
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 16px 0 4px
+}

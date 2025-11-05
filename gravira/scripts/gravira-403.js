@@ -6,7 +6,7 @@
             msg3: "Due to our intergalactic gaming license 🌍 (yes, we take rules seriously), we’re unable to offer access\n" +
                 "    from your current location.",
             msg4: "If you believe this is a mistake, or just want to say hi, feel free to drop us a line.",
-            msg5: "💬 Need help? Contact our",
+            msg5: "💬 Need help? Contact our ",
             msg6: "🛸 Using a VPN?",
             msg7: 'We’re cool with that 😎 — just note that depending on your setup, things\n' +
                 '    might not always run smoothly.',
@@ -45,4 +45,5 @@
     g("msg7") && (g("msg7").innerHTML = d.msg7);
     g("msg8") && (g("msg8").innerHTML = d.msg8);
     g("chat") && (g("chat").innerHTML = d.chat);
+
 })();
